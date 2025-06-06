@@ -35,7 +35,7 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-6xl md:text-8xl font-bold font-poppins mb-6 bg-gradient-to-r from-blue-accent to-purple-accent bg-clip-text text-transparent"
         >
-          Webbverket
+                      Webbfixaren
         </motion.h1>
 
         {/* Slogan */}

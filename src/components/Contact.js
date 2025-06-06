@@ -222,7 +222,7 @@ const Contact = () => {
             >
               <div>
                 <h3 className="text-2xl font-semibold text-white mb-6">
-                  Varför välja Webbverket?
+                  Varför välja Webbfixaren?
                 </h3>
                 <div className="space-y-4">
                   <motion.div

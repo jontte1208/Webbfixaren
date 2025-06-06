@@ -15,7 +15,7 @@ const About = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl md:text-5xl font-bold font-poppins mb-8 bg-gradient-to-r from-blue-accent to-purple-accent bg-clip-text text-transparent">
-                Om Webbverket
+                Om Webbfixaren
               </h2>
               
               <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
@@ -25,7 +25,7 @@ const About = () => {
                   transition={{ duration: 0.6, delay: 0.2 }}
                   viewport={{ once: true }}
                 >
-                  Jag heter Jonathan och driver Webbverket. Jag hjälper småföretag att växa online med 
+                  Jag heter Jonathan och driver Webbfixaren. Jag hjälper småföretag att växa online med 
                   snygga, snabba och lättskötta hemsidor – utan stress eller tekniskt krångel.
                 </motion.p>
                 
@@ -244,7 +244,7 @@ const About = () => {
                   det ska bara fungera."
                 </p>
                 <p className="text-blue-accent font-semibold text-center mt-4">
-                  - Jonathan, Grundare av Webbverket
+                  - Jonathan, Grundare av Webbfixaren
                 </p>
               </motion.div>
             </motion.div>

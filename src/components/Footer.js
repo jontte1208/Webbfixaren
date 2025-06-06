@@ -18,7 +18,7 @@ const Footer = () => {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-bold font-poppins bg-gradient-to-r from-blue-accent to-purple-accent bg-clip-text text-transparent">
-              Webbverket
+              Webbfixaren
             </h3>
             <p className="text-gray-400 mt-2 text-sm">
               Snygga hemsidor för småföretag
@@ -54,9 +54,9 @@ const Footer = () => {
             viewport={{ once: true }}
             className="text-center md:text-right"
           >
-            <p className="text-gray-400 text-sm">
-              © 2025 Webbverket. Alla rättigheter förbehållna.
-            </p>
+                    <p className="text-gray-400 text-sm">
+          © 2025 Webbfixaren. Alla rättigheter förbehållna.
+        </p>
           </motion.div>
         </div>
 
