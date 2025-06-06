@@ -1,0 +1,45 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f0f;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a2a2a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bgGradient)" rx="80"/>
+  
+  <!-- Web/Code Symbol -->
+  <g transform="translate(256,200)">
+    <!-- Angle brackets representing code -->
+    <path d="M -80 -40 L -120 0 L -80 40" stroke="url(#textGradient)" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 80 -40 L 120 0 L 80 40" stroke="url(#textGradient)" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Center dot/connection point -->
+    <circle cx="0" cy="0" r="8" fill="url(#textGradient)"/>
+    
+    <!-- Connecting lines -->
+    <line x1="-40" y1="0" x2="40" y2="0" stroke="url(#textGradient)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Company name -->
+  <text x="256" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="url(#textGradient)">
+    Webbfixaren
+  </text>
+  
+  <!-- Tagline -->
+  <text x="256" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="18" text-anchor="middle" fill="#d1d5db">
+    Vi bygger hemsidor som jobbar åt dig
+  </text>
+  
+  <!-- Decorative dots -->
+  <circle cx="120" cy="120" r="3" fill="#3b82f6" opacity="0.6"/>
+  <circle cx="392" cy="392" r="3" fill="#8b5cf6" opacity="0.6"/>
+  <circle cx="392" cy="120" r="2" fill="#10b981" opacity="0.4"/>
+  <circle cx="120" cy="392" r="2" fill="#f59e0b" opacity="0.4"/>
+</svg> 
