@@ -69,7 +69,7 @@ const Services = () => {
   return (
     <section className="py-20 bg-dark-secondary">
       <div className="container mx-auto px-6">
-        {/* Section Header */}
+        {/* Main Heading */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -78,10 +78,10 @@ const Services = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold font-poppins mb-6 bg-gradient-to-r from-blue-accent to-purple-accent bg-clip-text text-transparent">
-            Våra tjänster
+            Våra Tjänster för Småföretag
           </h2>
-          <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Vi erbjuder allt du behöver för en professionell webbnärvaro
+          <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
+            Allt du behöver för en professionell närvaro online. Från grundläggande hemsidor till avancerade e-handelslösningar.
           </p>
         </motion.div>
 
@@ -92,9 +92,11 @@ const Services = () => {
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+          role="list"
+          aria-label="Lista över våra webbdesign-tjänster"
         >
           {services.map((service, index) => (
-            <motion.div
+            <motion.article
               key={index}
               variants={cardVariants}
               whileHover={{ 
@@ -103,12 +105,14 @@ const Services = () => {
                 y: -10
               }}
               className="bg-dark-accent p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-700 hover:border-blue-accent/50"
+              role="listitem"
             >
               {/* Icon */}
               <motion.div 
                 className="text-blue-accent mb-6"
                 whileHover={{ rotate: 5, scale: 1.1 }}
                 transition={{ duration: 0.3 }}
+                aria-hidden="true"
               >
                 {service.icon}
               </motion.div>
@@ -122,7 +126,7 @@ const Services = () => {
               <p className="text-gray-400 leading-relaxed">
                 {service.description}
               </p>
-            </motion.div>
+            </motion.article>
           ))}
         </motion.div>
 

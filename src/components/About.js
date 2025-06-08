@@ -8,14 +8,14 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             {/* Text Content */}
-            <motion.div
+            <motion.header
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
               <h2 className="text-4xl md:text-5xl font-bold font-poppins mb-8 bg-gradient-to-r from-blue-accent to-purple-accent bg-clip-text text-transparent">
-                Om Webbfixaren
+                Om Webbfixaren - Din Partner för Webbdesign
               </h2>
               
               <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
@@ -73,7 +73,7 @@ const About = () => {
                   <div className="text-gray-400">Personlig service</div>
                 </div>
               </motion.div>
-            </motion.div>
+            </motion.header>
 
             {/* Process Visualization */}
             <motion.div
