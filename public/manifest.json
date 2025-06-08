@@ -1,22 +1,37 @@
 {
   "short_name": "Webbfixaren",
-  "name": "Webbfixaren - Vi bygger hemsidor som jobbar åt dig",
-  "description": "Professionella hemsidor för småföretag",
+  "name": "Webbfixaren - Professionella Hemsidor för Småföretag",
+  "description": "Professionella hemsidor för småföretag i Sverige. SEO-optimerade och responsiva.",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "logo.jpg",
+      "sizes": "144x144",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "logo.jpg",
+      "sizes": "96x96",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "logo.jpg",
+      "sizes": "72x72",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "logo.jpg",
+      "sizes": "48x48",
+      "type": "image/jpeg"
     }
   ],
   "start_url": ".",
