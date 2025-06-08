@@ -35,7 +35,7 @@ const Footer = () => {
           >
             {/* Facebook */}
             <motion.a
-              href="#"
+              href="@https://www.facebook.com/profile.php?id=61576844293135"
               whileHover={{ scale: 1.2, y: -2 }}
               className="text-gray-400 hover:text-blue-accent transition-colors duration-300"
               aria-label="Facebook"
